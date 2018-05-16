@@ -29,6 +29,12 @@ Note
 1. Use `~/.kube/config` kubeconfig file
 2. Only monitor pods in the `default` namespace
 
+Code :: custom types
+
+1. `Controller` struct type, see controller.go
+2. `Handler` interface type, see handler.go
+3. `TestHandler` struct type, see handler.go
+
 # Dependency package list
 
 main.go
@@ -196,7 +202,6 @@ go install
 # * $GOPATH/bin/k8s-pod-controller
 ```
 
-
 # Reference
 
 * Create controllers for core resources [[blog](https://medium.com/@trstringer/create-kubernetes-controllers-for-core-and-custom-resources-62fc35ad64a3)] [[src](https://github.com/trstringer/k8s-controller-core-resource)]
@@ -206,4 +211,6 @@ go install
 * [Kubernetes official sample controller - custom controller example, which uses custom resources](https://github.com/kubernetes/sample-controller)
 * Explain dep [[how to use it](https://yushuangqi.com/blog/2017/gozui-xin-de-depxiang-jie.html)] [[the reason why not to use it](https://blog.wu-boy.com/2017/03/golang-dependency-management-tool-dep/)]
 * [Go by Example: Signals](https://gobyexample.com/signals)
-* [Managing Kubernetes Objects Using Imperative Commands](https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/#how-to-update-objects)
+* [A Tour of Go: Structs](https://tour.golang.org/moretypes/2)
+* [A Tour of Go: Interfaces](https://tour.golang.org/methods/9)
+* [Managing kubernetes objects using imperative commands](https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/#how-to-update-objects)
