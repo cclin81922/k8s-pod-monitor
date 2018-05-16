@@ -54,7 +54,7 @@ Code :: controller loop
 
 Code :: main loop
 
-1. main()
+1. main() # wait for `POSIX signals`
 
 # Dependency package list
 
