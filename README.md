@@ -46,10 +46,11 @@ Code :: main loop 2
 
 1. main()
 2. Run() -> see methods of `Controller` struct type
-3. runWorker() -> see methods of `Controller` struct type
-4. processNextItem() -> see methods of `Controller` struct type
-5. ObjectDeleted() | ObjectCreatedORUpdated() -> see methods of `Handler ` interface type
-6. ObjectDeleted() | ObjectCreatedORUpdated() -> see methods of `TestHandler ` struct type
+3. Until() -> see functions of `wait` package
+4. runWorker() -> see methods of `Controller` struct type
+5. processNextItem() -> see methods of `Controller` struct type
+6. ObjectDeleted() | ObjectCreatedORUpdated() -> see methods of `Handler ` interface type
+7. ObjectDeleted() | ObjectCreatedORUpdated() -> see methods of `TestHandler ` struct type
 
 # Dependency package list
 
