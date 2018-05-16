@@ -35,24 +35,24 @@ Code :: custom types
 2. `Handler` interface type -> see [handler.go](handler.go)
 3. `TestHandler` struct type -> see [handler.go](handler.go)
 
-Code :: main loop 1
+Code :: informer loop
 
 1. main()
 2. Run() -> see methods of `Controller` struct type
-3. Run() -> see methods of `ctrl-informer` object
+3. Run() -> see methods of `ctrl-informer` object <- loop
 4. AddFunc() | UpdateFunc() | DeleteFunc() -> see event handlers of `ctrl-informer` object
 
-Code :: main loop 2
+Code :: controller loop
 
 1. main()
 2. Run() -> see methods of `Controller` struct type
-3. Until() -> see functions of `wait` package
+3. Until() -> see functions of `wait` package <- loop
 4. runWorker() -> see methods of `Controller` struct type
 5. processNextItem() -> see methods of `Controller` struct type
 6. ObjectDeleted() | ObjectCreatedORUpdated() -> see methods of `Handler ` interface type
 7. ObjectDeleted() | ObjectCreatedORUpdated() -> see methods of `TestHandler ` struct type
 
-Code :: main loop 3
+Code :: main loop
 
 1. main()
 
