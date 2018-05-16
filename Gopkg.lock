@@ -43,8 +43,8 @@
     "ptypes/duration",
     "ptypes/timestamp"
   ]
-  revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
-  version = "v1.1.0"
+  revision = "925541529c1fa6821df4e44ce2723319eb2be768"
+  version = "v1.0.0"
 
 [[projects]]
   branch = "master"
@@ -111,19 +111,19 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["ssh/terminal"]
-  revision = "1a580b3eff7814fc9b40602fd35256c63b50f491"
+  revision = "d6449816ce06963d9d136eee5a56fca5b0616e7e"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = [
     "context",
-    "http/httpguts",
     "http2",
     "http2/hpack",
-    "idna"
+    "idna",
+    "lex/httplex"
   ]
-  revision = "2491c5de3490fced2f6cff376127c667efeed857"
+  revision = "61147c48b25b599e5b561d2e9c4f3e1ef489ca41"
 
 [[projects]]
   branch = "master"
@@ -132,7 +132,7 @@
     "unix",
     "windows"
   ]
-  revision = "7c87d13f8e835d2fb3a70a2912c811ed0c1d241b"
+  revision = "2281fa97ef7b0c26324634d5a22f04babdac8713"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -206,7 +206,7 @@
     "storage/v1alpha1",
     "storage/v1beta1"
   ]
-  revision = "1b6ea75871c9eda0a66254aeeb2d47ecba3ff3c6"
+  revision = "6fb8575d8ac324ad9f9605dec64b7a4b8a632e79"
 
 [[projects]]
   branch = "master"
@@ -217,6 +217,7 @@
     "pkg/api/resource",
     "pkg/apis/meta/internalversion",
     "pkg/apis/meta/v1",
+    "pkg/apis/meta/v1/unstructured",
     "pkg/apis/meta/v1beta1",
     "pkg/conversion",
     "pkg/conversion/queryparams",
@@ -250,7 +251,7 @@
     "pkg/watch",
     "third_party/forked/golang/reflect"
   ]
-  revision = "8e510c818b62c1a0a1b738153104e8627916ebeb"
+  revision = "ba81bc69c72dde92d5f1fefa2fa6d82aa83a6676"
 
 [[projects]]
   name = "k8s.io/client-go"
@@ -316,6 +317,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ab64961a53fec5118f9b809dbe6769492ce95f1088e847eb1433574a7834c389"
+  inputs-digest = "5252d0f1d4705e091ccff048c2df0984141f15fd8e0e79f97462a50c86ff5899"
   solver-name = "gps-cdcl"
   solver-version = 1
