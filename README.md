@@ -24,9 +24,13 @@ $GOPATH/bin/k8s-pod-monitor # make sure that k8s cluster is running before start
 main.go
 
 * os
+  *	 to get value of environment variable `HOME`
 * os/signal
+  * to handle POSIX signals
 * syscall
+  * to handle POSIX signals
 * github.com/sirupsen/logrus
+  * to log message with log levels
 * k8s.io/api/core/v1
 * k8s.io/apimachinery/pkg/apis/meta/v1
 * k8s.io/apimachinery/pkg/runtime
@@ -183,3 +187,4 @@ go install
 * Example controller - kubewatch [[blog](https://engineering.bitnami.com/articles/kubewatch-an-example-of-kubernetes-custom-controller.html)] [[src](https://github.com/bitnami-labs/kubewatch)]
 * [Kubernetes official sample controller - custom controller example, which uses custom resources](https://github.com/kubernetes/sample-controller)
 * Explain dep [[how to use it](https://yushuangqi.com/blog/2017/gozui-xin-de-depxiang-jie.html)] [[the reason why not to use it](https://blog.wu-boy.com/2017/03/golang-dependency-management-tool-dep/)]
+* [Go by Example: Signals](https://gobyexample.com/signals)
