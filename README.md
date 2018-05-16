@@ -35,7 +35,12 @@ Code :: custom types
 2. `Handler` interface type -> see [handler.go](handler.go)
 3. `TestHandler` struct type -> see [handler.go](handler.go)
 
-Code :: main loop
+Code :: main loop 1
+
+1. main()
+2. AddFunc() | UpdateFunc() | DeleteFunc() -> see event handlers of `ctrl-informer` object
+
+Code :: main loop 2
 
 1. main()
 2. Run() -> see controller method
