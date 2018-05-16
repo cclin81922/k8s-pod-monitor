@@ -16,11 +16,30 @@ Use `dep` to manage dependency package version
 cd $GOPATH/src/github.com/<GITHUB USERNAME>/<REPO>/
 dep init
 
-# auto-generate 2 files
+# auto-generate 2 files and 1 folder
 # * Gopkg.lock
 # * Gopkg.toml
+# * vendor/
+
+dep status
 ```
 
+Use `vscode` to edit source code
+
+```
+# Open folder ...
+# Choose $GOPATH/src/github.com/<GITHUB USERNAME>/<REPO>/
+# Edit main.go
+# Edit controller.go
+# Edit handler.go
+```
+
+Use `dep` again after changing package dependency
+
+```
+dep ensure
+dep status
+```
 
 # Reference
 
