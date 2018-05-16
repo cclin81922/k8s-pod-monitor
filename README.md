@@ -38,7 +38,9 @@ Code :: custom types
 Code :: main loop 1
 
 1. main()
-2. AddFunc() | UpdateFunc() | DeleteFunc() -> see event handlers of `ctrl-informer` object
+2. Run() -> see methods of `Controller` struct type
+3. Run() -> see methods of `ctrl-informer` object
+4. AddFunc() | UpdateFunc() | DeleteFunc() -> see event handlers of `ctrl-informer` object
 
 Code :: main loop 2
 
