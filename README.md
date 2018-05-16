@@ -36,9 +36,13 @@ main.go
 * k8s.io/apimachinery/pkg/runtime
 * k8s.io/apimachinery/pkg/watch
 * k8s.io/client-go/kubernetes
+  * to new `k8s-client` object of type `kubernetes.Interface` 
 * k8s.io/client-go/tools/cache
+  * to new `ctrl-informer` object
 * k8s.io/client-go/tools/clientcmd
+  * to new `k8s-config` object
 * k8s.io/client-go/util/workqueue
+  * to new `ctrl-workqueue` object
 
 controller.go
 
