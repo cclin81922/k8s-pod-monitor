@@ -237,7 +237,9 @@ go install
 * Explain dep [[how to use it](https://yushuangqi.com/blog/2017/gozui-xin-de-depxiang-jie.html)] [[the reason why not to use it](https://blog.wu-boy.com/2017/03/golang-dependency-management-tool-dep/)]
 * [Go by Example: Signals](https://gobyexample.com/signals)
 * [A Tour of Go: Structs](https://tour.golang.org/moretypes/2)
+* [A Tour of Go: Pointer receivers](https://tour.golang.org/methods/4)
 * [A Tour of Go: Interfaces](https://tour.golang.org/methods/9)
 * [A Tour of Go: The empty interface](https://tour.golang.org/methods/14)
 * [A Tour of Go: Type assertions](https://tour.golang.org/methods/15)
+* [A Tour of Go: Goroutines](https://tour.golang.org/concurrency/1)
 * [Managing kubernetes objects using imperative commands](https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/#how-to-update-objects)
