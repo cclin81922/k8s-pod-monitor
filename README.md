@@ -87,10 +87,15 @@ controller.go
 * github.com/sirupsen/logrus
   * to log message with `log levels` 
 * k8s.io/apimachinery/pkg/util/runtime
+  * to handle `panic` and `err` 
 * k8s.io/apimachinery/pkg/util/wait
+  * to run the `runWorker` method every second with a stop channel 
 * k8s.io/client-go/kubernetes
+  * to support definition of `Controller` struct type
 * k8s.io/client-go/tools/cache
+  * to support definition of `Controller` struct type
 * k8s.io/client-go/util/workqueue
+  * to support definition of `Controller` struct type
 	
 handler.go
 
