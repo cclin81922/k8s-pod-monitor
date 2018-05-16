@@ -236,6 +236,7 @@ go install
 * [Kubernetes official sample controller - custom controller example, which uses custom resources](https://github.com/kubernetes/sample-controller)
 * Explain dep [[how to use it](https://yushuangqi.com/blog/2017/gozui-xin-de-depxiang-jie.html)] [[the reason why not to use it](https://blog.wu-boy.com/2017/03/golang-dependency-management-tool-dep/)]
 * [Go by Example: Signals](https://gobyexample.com/signals)
+* [Go by Example: Defer](https://gobyexample.com/defer)
 * [Go by Example: Channels](https://gobyexample.com/channels)
 * [Go by Example: Closing Channels](https://gobyexample.com/closing-channels)
 * [Go by Example: Channel Buffering](https://gobyexample.com/channel-buffering)
