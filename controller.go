@@ -122,8 +122,8 @@ func (c *Controller) processNextItem() bool {
 		c.handler.ObjectDeleted(item)
 		c.queue.Forget(key)
 	} else {
-		c.logger.Infof("Controller.processNextItem: object created detected: %s", keyRaw)
-		c.handler.ObjectCreated(item)
+		c.logger.Infof("Controller.processNextItem: object created or updated detected: %s", keyRaw)
+		c.handler.ObjectCreatedORUpdated(item)
 		c.queue.Forget(key)
 	}
 

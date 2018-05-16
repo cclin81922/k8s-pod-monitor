@@ -8,6 +8,7 @@ import (
 // Handler interface contains the methods that are required
 type Handler interface {
 	Init() error
+	ObjectCreatedORUpdated(obj interface{})
 	ObjectCreated(obj interface{})
 	ObjectDeleted(obj interface{})
 	ObjectUpdated(objOld, objNew interface{})
@@ -20,6 +21,16 @@ type TestHandler struct{}
 func (t *TestHandler) Init() error {
 	log.Info("TestHandler.Init")
 	return nil
+}
+
+// ObjectCreatedORUpdated is called when an object is created or updated
+func (t *TestHandler) ObjectCreatedORUpdated(obj interface{}) {
+	log.Info("TestHandler.ObjectCreatedORUpdated")
+	// assert the type to a Pod object to pull out relevant data
+	pod := obj.(*core_v1.Pod)
+	log.Infof("    ResourceVersion: %s", pod.ObjectMeta.ResourceVersion)
+	log.Infof("    NodeName: %s", pod.Spec.NodeName)
+	log.Infof("    Phase: %s", pod.Status.Phase)
 }
 
 // ObjectCreated is called when an object is created

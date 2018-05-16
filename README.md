@@ -17,6 +17,11 @@ go install
 
 # start k8s-pod-monitor
 $GOPATH/bin/k8s-pod-monitor # make sure that k8s cluster is running before starting k8s-pod-monitor
+
+# test k8s-pod-monitor using imperative commands
+kubectl run nginx --image=nginx # create
+kubectl scale --replicas=2 deploy/nginx # update
+kubectl delete deploy/nginx # delete
 ```
 
 Note
@@ -201,3 +206,4 @@ go install
 * [Kubernetes official sample controller - custom controller example, which uses custom resources](https://github.com/kubernetes/sample-controller)
 * Explain dep [[how to use it](https://yushuangqi.com/blog/2017/gozui-xin-de-depxiang-jie.html)] [[the reason why not to use it](https://blog.wu-boy.com/2017/03/golang-dependency-management-tool-dep/)]
 * [Go by Example: Signals](https://gobyexample.com/signals)
+* [Managing Kubernetes Objects Using Imperative Commands](https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/#how-to-update-objects)
