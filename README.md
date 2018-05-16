@@ -52,6 +52,10 @@ Code :: main loop 2
 6. ObjectDeleted() | ObjectCreatedORUpdated() -> see methods of `Handler ` interface type
 7. ObjectDeleted() | ObjectCreatedORUpdated() -> see methods of `TestHandler ` struct type
 
+Code :: main loop 3
+
+1. main()
+
 # Dependency package list
 
 main.go
