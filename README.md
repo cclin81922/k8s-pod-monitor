@@ -19,6 +19,11 @@ go install
 $GOPATH/bin/k8s-pod-monitor # make sure that k8s cluster is running before starting k8s-pod-monitor
 ```
 
+Note
+
+1. Use `~/.kube/config` kubeconfig file
+2. Only monitor pods in the `default` namespace
+
 # Dependency package list
 
 main.go
