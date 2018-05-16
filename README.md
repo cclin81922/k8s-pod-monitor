@@ -48,4 +48,4 @@ dep status
 * [Explaing controller pattern and controller components](https://engineering.bitnami.com/articles/a-deep-dive-into-kubernetes-controllers.html)
 * Example kubewatch [[blog](https://engineering.bitnami.com/articles/kubewatch-an-example-of-kubernetes-custom-controller.html)] [[src](https://github.com/bitnami-labs/kubewatch)]
 * Kubernetes official sample controller - custom controller example, which uses custom resources [[src](https://github.com/kubernetes/sample-controller)]
-* Explaing dep [[how to use it](https://github.com/kevingo/dep-example)] [[the reason why not to use it](https://blog.wu-boy.com/2017/03/golang-dependency-management-tool-dep/)]
+* Explaing dep [[how to use it](https://yushuangqi.com/blog/2017/gozui-xin-de-depxiang-jie.html)] [[the reason why not to use it](https://blog.wu-boy.com/2017/03/golang-dependency-management-tool-dep/)]
