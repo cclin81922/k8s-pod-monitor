@@ -1,5 +1,24 @@
 # k8s-pod-monitor
 
+Usage
+
+```
+# download source code of k8s-pod-monitor
+go get github.com/cclin81922/k8s-pod-monitor
+
+# change current working dir
+cd $GOPATH/bin/src/github.com/cclin81922/k8s-pod-monitor # $GOPATH default is ~/go
+
+# prepare dependency package of k8s-pod-monitor
+dep ensure
+
+# build and install k8s-pod-monitor
+go install
+
+# start k8s-pod-monitor
+$GOPATH/bin/k8s-pod-monitor
+```
+
 # Dependency package list
 
 main.go
@@ -39,8 +58,6 @@ Create a custom controller project structure from scratch
 
 ```
 mkdir -p $GOPATH/src/github.com/<GITHUB USERNAME>/<REPO>/
-
-# $GOPATH default is ~/go
 ```
 
 Use `dep` to manage dependency package version
