@@ -16,7 +16,7 @@ dep ensure
 go install
 
 # start k8s-pod-monitor
-$GOPATH/bin/k8s-pod-monitor
+$GOPATH/bin/k8s-pod-monitor # make sure that k8s cluster is running before starting k8s-pod-monitor
 ```
 
 # Dependency package list
