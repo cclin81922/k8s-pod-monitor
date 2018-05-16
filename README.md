@@ -35,10 +35,10 @@ handler.go
 
 # Golang project setup
 
-Create hello-world custom controller project structure from scratch
+Create a custom controller project structure from scratch
 
 ```
-cp -r hello-world/*.go $GOPATH/src/github.com/<GITHUB USERNAME>/<REPO>/
+cp -r hello-controller/*.go $GOPATH/src/github.com/<GITHUB USERNAME>/<REPO>/
 
 # $GOPATH default is ~/go
 ```
