@@ -26,11 +26,11 @@ main.go
 * os
   *	 to get value of environment variable `HOME`
 * os/signal
-  * to handle POSIX signals
+  * to handle `POSIX signals`
 * syscall
-  * to handle POSIX signals
+  * to handle `POSIX signals`
 * github.com/sirupsen/logrus
-  * to log message with log levels
+  * to log message with `log levels`
 * k8s.io/api/core/v1
   * to support creation of `ctrl-informer` object
 * k8s.io/apimachinery/pkg/apis/meta/v1
