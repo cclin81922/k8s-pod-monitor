@@ -242,4 +242,5 @@ go install
 * [A Tour of Go: The empty interface](https://tour.golang.org/methods/14)
 * [A Tour of Go: Type assertions](https://tour.golang.org/methods/15)
 * [A Tour of Go: Goroutines](https://tour.golang.org/concurrency/1)
+* [Explain the empty struct](https://dave.cheney.net/2014/03/25/the-empty-struct)
 * [Managing kubernetes objects using imperative commands](https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/#how-to-update-objects)
