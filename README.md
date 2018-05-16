@@ -31,9 +31,17 @@ Note
 
 Code :: custom types
 
-1. `Controller` struct type, see controller.go
-2. `Handler` interface type, see handler.go
-3. `TestHandler` struct type, see handler.go
+1. `Controller` struct type, see [controller.go](controller.go)
+2. `Handler` interface type, see [handler.go](handler.go)
+3. `TestHandler` struct type, see [handler.go](handler.go)
+
+Code :: main loop
+
+1. main()
+2. Run(), see controller method
+3. runWorker(), see controller method
+4. processNextItem(), see controller method
+5. ObjectDeleted() | ObjectCreatedORUpdated(), see handler method
 
 # Dependency package list
 
