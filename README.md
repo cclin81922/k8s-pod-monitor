@@ -83,6 +83,7 @@ controller.go
 * fmt
 * time
 * github.com/sirupsen/logrus
+  * to log message with `log levels` 
 * k8s.io/apimachinery/pkg/util/runtime
 * k8s.io/apimachinery/pkg/util/wait
 * k8s.io/client-go/kubernetes
@@ -92,7 +93,9 @@ controller.go
 handler.go
 
 * github.com/sirupsen/logrus
+  * to log message with `log levels`
 * k8s.io/api/core/v1
+  * to convert object type from `interface{}` to `Pod` struct
 
 # Golang project setup
 
@@ -227,4 +230,6 @@ go install
 * [Go by Example: Signals](https://gobyexample.com/signals)
 * [A Tour of Go: Structs](https://tour.golang.org/moretypes/2)
 * [A Tour of Go: Interfaces](https://tour.golang.org/methods/9)
+* [A Tour of Go: The empty interface](https://tour.golang.org/methods/14)
+* [A Tour of Go: Type assertions](https://tour.golang.org/methods/15)
 * [Managing kubernetes objects using imperative commands](https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/#how-to-update-objects)
