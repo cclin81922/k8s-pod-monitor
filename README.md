@@ -253,3 +253,7 @@ go install
 * [A Tour of Go: Goroutines](https://tour.golang.org/concurrency/1)
 * [Explain the empty struct](https://dave.cheney.net/2014/03/25/the-empty-struct)
 * [Managing kubernetes objects using imperative commands](https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/#how-to-update-objects)
+
+# Acknowledgement
+
+hello-controller.tgz is forked from [github.com/trstringer/k8s-controller-core-resource](https://github.com/trstringer/k8s-controller-core-resource).
